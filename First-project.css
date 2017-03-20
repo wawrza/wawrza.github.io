@@ -212,12 +212,12 @@ img {
 
 /*Galeria*/
 
-.pracownicy {
+.employees {
 	width: 900px;
 	margin: 0 auto;
 }
 
-.pracownicy h3 {
+.employees h3 {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 25px;
@@ -226,14 +226,14 @@ img {
 	color: #535353;
 }
 
-.galeria1 p {
+.gallery1 p {
 	font-size: 20px;
 	text-align: center;
 	line-height: 170px;	
 	display: none;
 }
 
-.maly1:hover  p {
+.small1:hover  p {
  	display: block;
  	z-index: 2;
  	position: absolute;
@@ -243,23 +243,23 @@ img {
  	background-size: 100%;
 }
 
-.duzy {
+.big {
     width: 40%;
 }
 
-.maly, .maly1 {
+.small, .small1 {
     width: 20%;
     z-index: 1;
 }
 
-.galeria1 > div, .galeria2 > div {
+.gallery1 > div, .gallery2 > div {
   float: left;
   height: 150px;
   overflow: hidden;
   position: relative;
 }
 
-.maly img, .maly1 img, .duzy img {
+.small img, .small1 img, .small img {
   position: absolute;
   width: 100%;
   height: auto;
@@ -276,15 +276,15 @@ img {
   clear: both;
 }
 
-.prac {
+.people {
   text-align: center;
 }
 
-.prac > div:hover .layer {
+.people > div:hover .layer {
   background: rgba(0, 0, 0, 0.6);
 }
 
-.prac > div:hover .layer p {
+.people > div:hover .layer p {
   display: block;
 }
 
@@ -307,7 +307,7 @@ img {
   font-size: 20px;
 }
 
-.prac > div {
+.people > div {
   width: 200px;
   height: 200px;
   line-height: 150px;
@@ -317,25 +317,25 @@ img {
   margin: 90px 0 10px 55px;
 }
 
-.pracownicy img {
+.employees img {
   max-width: 100%;
   height: auto;
 }
 
 /*Opis*/
 
-.opis {
+.description {
 	width: 900px;
 	margin: 0 auto;
 	height: 400px;
 }
 
-.opis img {
+.description img {
 	margin-top: 80px;
 	height: 250px;
 }
 
-.opis p {
+.description p {
 	text-align: justify;
 	color: #ffffff;
 	padding: 50px 0 100px 50px;
@@ -343,20 +343,20 @@ img {
 	font-family: Lato;
 }
 
-.opis h2 {
+.description h2 {
 	font-size: 35px;
 	color: #ffffff;
 	padding-top: 90px;
 	font-family: Bree Serif;
 }
 
-.tlo {
+.background {
 	background-color: #313234;
 }
 
 /*Liczby*/
 
-.liczby {
+.numbers {
 	text-align: center;
 	width: 900px;
 	margin: 20px auto 0 auto;
@@ -364,51 +364,51 @@ img {
 	line-height: 40px;
 }
 
-.liczby h2 {
+.numbers h2 {
 	font-size: 40px;
 	color: #000000;
 	margin-top: 32px;
 	font-weight: bold;
 }
 
-.liczby p {
+.numbers p {
 	font-size: 20px;
 	text-transform: uppercase;
 	color: #33cccc;
 }
 /*Stopka*/
-.stopka {
+.footer {
 	background-color: #313234;
 }
-.stopka1 {
+.footer1 {
 	height: 250px;
 	margin: 0 auto;
 }
-.stopka2 {
+.footer2 {
 	background-color: #2a2a2a;
 	color: #848484;
 	padding: 10px 0;
 	text-align: center;
 }
-.stopka1 p, a, h2 {
+.footer1 p, a, h2 {
 	text-align: center;
 	color: #ffffff;
 }
-.stopka1 h2 {
+.footer1 h2 {
 	font-size: 25px;
 	padding-top: 60px;
 	font-weight: bold;
 }
-.stopka1 p {
+.footer1 p {
 	font-size: 15px;
 	line-height: 30px;
 }
-.stopka1 a {
+.footer1 a {
 	display: block;
 	font-size: 15px;
 	line-height: 30px;
 }
-.pozycja {
+.position {
 	text-align: center;
 	margin: 10px auto;
 }
@@ -480,19 +480,19 @@ button:hover {
 		height: auto;
 }
 	.service2,
-    .stopka1,
-    .pracownicy,
-    .opis,
-    .liczby {
+    .footer1,
+    .employees,
+    .description,
+    .numbers {
 		width: 100%
     }
-   	.duzy {
+   	.big {
     	width: 34%;
 }
-	.maly, .maly1 {
+	.small, .small1 {
     	width: 22%;
 }
-	.prac > div {
+	.people > div {
 		width: 130px;
 		height: 130px;
 }
@@ -503,29 +503,29 @@ button:hover {
     	width: 60%;
     	padding: 0 20px;
 }
-.opis .col-4 {
+.description .col-4 {
 	width: 50%;
 }
-.opis img {
+.description img {
 	height: auto;
 	margin-right: 30px;
 }
-.opis .col-8 {
+.description .col-8 {
 	width: 50%;
 }
 .col-8 h2 {
 	font-size: 28px;
 }
-.opis p {
+.description p {
     padding: 20px 20px 10px 20px;
     font-size: 18px;
 }
-.maly img, 
-.maly1 img, 
-.duzy img {
+.small img, 
+.small1 img, 
+.big img {
   	height: 100%;
 }
-.pozycja {
+.position {
 	text-align: center;
 	margin: 10px auto;
 }
@@ -543,7 +543,7 @@ button:hover {
 	font-size: 20px;
 	line-height: 20px;
 }
-.stopka1 {
+.footer1 {
 	height: 200px;
 }
 }
@@ -561,60 +561,60 @@ button:hover {
 .service2 h3 {
     margin-top: 0;
 }
-.galeria1 > div,
-.galeria2 > div {
+.gallery1 > div,
+.gallery2 > div {
     height: auto;
     width: 100%;
     padding-top: 75%;
 }
-.prac > div {
+.people > div {
     margin: 0;
     display: inline-block;
 }
-.opis p {
+.description p {
     padding: 30px 20px;
     font-size: 15px;
 }
-.prac,
+.description,
 .col-3,
 .col-4,
 .col-8 {
 	width: 100%;
 }
-.galeria2 div:nth-child(3) {
+.gallery2 div:nth-child(3) {
 	margin-bottom: 25px;
 }
-.stopka {
+.footer {
 	background-color: #ffffff;
 }
-.opis img {
+.description img {
 	margin: 0 auto;
 	float: none;
 	padding-top: 70px;
 }
-.opis h2 {
+.description h2 {
 	padding-top: 10px;
 	font-size: 25px;
 }
-.galeria1 {
+.gallery1 {
     overflow: hidden;
 }
-.pozycja {
+.position {
 	margin: 0 auto;
 }
-.liczby {
+.numbers {
 	margin: 0;
 }
-.opis {
+.description {
 	max-height: 300px;
 }
-.prac {
+.people {
 	padding-top: 30px;
 }
-.maly img {
+.small img {
 	margin-top: 20px;
 }
-.duzy img {
+.big img {
 	padding-bottom: 20px;
 }
 .icon-btn {
@@ -622,11 +622,11 @@ button:hover {
 }
 }
 @media (max-width: 425px) {
-	.opis p {
+	.description p {
 		font-size: 13px;
 		padding: 10px 10px 0 10px;
 }
-	.liczby h2 {
+	.numbers h2 {
 		margin-top: 22px;
 }
 	.service2 p {
